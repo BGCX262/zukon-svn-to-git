@@ -1,0 +1,28 @@
+<html>
+  <body>
+    <a href="{{ url }}">{{ url_linktext }}</a>
+    <ol>
+    	{% for update in updates %}
+    		<li>
+    			From {{update.service}}: 
+    			<a href="{{update.link}}">{{update.content}}</a>
+    			posted at: {{update.printTime}}
+    		</li>
+    	{% endfor %}
+    </ol>
+    {% if account %}
+	    <form action="/add" method="post">
+	    	<label for="service">Service: </label>
+	    	<select name="service">
+	    		<option>twitter</option>
+	    		<option>del.icio.us</option>
+	    		<option>last.fm</option>
+	    		<option>YouTube</option>
+	    	</select><br/>
+	    	<label for="username">Username: </label>
+	    	<input type="text" name="username"/>
+	    	<input type="submit" value="Add"/>
+	    </form>
+    {% endif %}
+  </body>
+</html>

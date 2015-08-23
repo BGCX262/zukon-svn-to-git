@@ -1,0 +1,20 @@
+h1{clear:both;padding:40px 0 0;margin:0;}
+#myList li{width:200px;display:list-item;background:#CCC;margin:2px 0;}
+#myTabs{border-bottom:1px solid #ccc;margin:0;padding:0 0 5px 25px;position:relative;}
+#myTabs li{list-style-type:none;display:inline!important;margin-right:-5px;}
+#myTabs li a{padding:5px 8px;border:1px solid #ccc;background:#ebebeb;cursor:move;}
+#myTabs li.activeTab a{border-bottom-color:#fff;background:#fff;}
+.tabsContent{clear:left;border:1px solid #ccc;border-top:none;padding:15px;}
+#myTabs .orderable-drop-marker{position:absolute;height:90%;}
+#myGrid{width:300px;height:300px;border:1px solid #CCC;}
+#myGrid p{background:#ebebeb;width:30%;height:30%;margin:1.5%;text-align:center;display:inline;float:left;}
+h1{clear:both;padding:40px 0 0;margin:0;}
+#myList li{width:200px;display:list-item;background:#CCC;margin:2px 0;}
+#myTabs{border-bottom:1px solid #ccc;margin:0;padding:0 0 5px 25px;position:relative;}
+#myTabs li{list-style-type:none;display:inline!important;margin-right:-5px;}
+#myTabs li a{padding:5px 8px;border:1px solid #ccc;background:#ebebeb;cursor:move;}
+#myTabs li.activeTab a{border-bottom-color:#fff;background:#fff;}
+.tabsContent{clear:left;border:1px solid #ccc;border-top:none;padding:15px;}
+#myTabs .orderable-drop-marker{position:absolute;height:90%;}
+#myGrid{width:300px;height:300px;border:1px solid #CCC;}
+#myGrid p{background:#ebebeb;width:30%;height:30%;margin:1.5%;text-align:center;display:inline;float:left;}

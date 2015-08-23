@@ -1,0 +1,9 @@
+.orderable-default{cursor:move;}
+.orderable-selected{background-color:lightyellow!important;;}
+.orderable-hover{background-color:lightyellow!important;;}
+.orderable-dragging{background:#999!important;;}
+.orderable-avatar{cursor:move;list-style-type:none;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=75);opacity:.75;}
+.fluid-vertical-order .orderable-drop-marker{background-color:red!important;height:0!important;padding:2px 0 0 0!important;border-width:0!important;margin:-2px 0 0 0!important;list-style-type:none;font-size:0;line-height:0;overflow:hidden;}
+.fluid-horizontal-order .orderable-drop-marker{background-color:red!important;width:0!important;padding:0 2px 0 0!important;border-width:0!important;margin:0 -2px 0 0!important;list-style-type:none;line-height:0;overflow:hidden;}
+.inlineEdit-invitation{border:1px solid #999;background:lightyellow;cursor:pointer;}
+.inlineEdit-tooltip{position:absolute;background:#CCC;border:1px solid #999;font:normal 75% sans-serif;padding:3px 5px;}
